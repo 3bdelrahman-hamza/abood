@@ -1,0 +1,194 @@
+body{
+    
+    
+    background-image:url(../img/farcryh.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    opacity: 0.9;
+    filter: contrast(1.2);
+}
+
+
+#logo a{
+    font-size: 35px;
+    color:aqua;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:impact;
+    
+}
+
+#logo a:link{
+    
+    color:hotpink;
+    
+}
+
+#logo a:visited{
+    
+    color:orangered;
+    
+}
+
+#logo a:hover{
+    
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    position: fixed;
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    top: 0;
+    left:0;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:black;
+text-align: center;
+    opacity: .8;
+    
+    
+}
+
+
+    
+    
+
+
+li a {
+
+    display: block;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-weight:900;
+    text-decoration: none;
+    padding: 6px;
+    text-transform: uppercase;
+    border: 1px solid green;
+    border-radius: 8px;
+    
+    
+
+}
+li{
+    
+    display: inline-flex;
+    background-color:crimson;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color:orange;
+}
+
+ a{
+    
+    font-size: 20px;
+}
+
+a:link{
+    
+    color:cyan;
+    
+}
+
+
+ a:visited{
+    
+    color:cyan;
+}
+
+
+a:hover{
+    
+    color: black;
+    
+    
+    
+}
+
+#f {
+    float: left;
+padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+}
+#f{
+    width: 900px;
+    height:500;
+    cursor: pointer;
+    overflow: hidden;
+    
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+    
+}
+
+img:hover{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.8);
+}
+
+
+.p{
+    
+text-align: left;
+    float: right;
+
+    color:black;
+
+    font-family:arial ;
+
+    font-size:26px ;
+
+    vertical-align: middle;
+
+    height: 100%;
+
+    width:50%;
+background-color: lightblue;
+    display:inline-table;
+
+    text-indent:100px;
+
+    text-transform:capitalize; 
+}
+button {
+    background-color: #4CAF50;
+    border: 3;
+    color: white;
+    padding:10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 7px 5px;
+    cursor: pointer;
+    border-radius: 15px;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+

@@ -1,0 +1,449 @@
+body{
+    
+    
+    background-image:url(../img/mainn.jpg);
+    background-attachment: fixed;
+background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(1.5);
+    
+}
+
+    
+    
+    
+
+#logo a{
+    font-size: 35px;
+    color:orangered;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:impact;
+    
+}
+
+
+#logo a:hover{
+    
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    position: fixed;
+        left: 0;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:black;
+text-align: center;
+    opacity: .8;
+    
+    
+}
+ 
+ul .music{
+    
+    float: right;
+    
+    
+    
+}
+
+    
+    
+
+
+li a {
+
+    display: block;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-weight:900;
+    text-decoration: none;
+    padding: 6px;
+    text-transform: uppercase;
+    border: 1px solid green;
+    border-radius: 8px;
+    
+    
+
+}
+li{
+    
+    display: inline-flex;
+    background-color:crimson;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color:orange;
+}
+
+ a{
+    
+    font-size: 20px;
+}
+
+a:link{
+    
+    color:cyan;
+    
+}
+
+
+ a:visited{
+    
+    color:cyan;
+}
+
+
+a:hover{
+    
+    color: black;
+    
+    
+    
+}
+
+
+h1{
+    
+    color: aliceblue;
+}
+
+
+
+
+
+
+.head{
+    
+    
+        opacity: 0.6;
+
+}
+
+
+
+
+
+.head h1{
+    
+    font-size: 40px;
+    text-align: center;
+    color: orangered;
+    border: 2px solid #f1f1f1;
+    background-color: gray;
+    position: sticky;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.num1 .q{
+    
+    
+    float: left;
+}
+
+
+.q{
+   width: 500px;
+    height: 300px;
+        cursor: :pointer;
+    overflow: hidden;
+}
+
+.q img{
+    
+     width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+}
+
+.q:hover img{
+    
+     transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+    
+}
+
+
+
+
+.num1 .w{
+    
+    float: right;
+    
+}
+
+
+.w{
+    
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+.w img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+}
+
+
+.w:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+    
+}
+
+.num1 .e{
+    
+    
+    text-align: center;
+    margin: 25px auto;
+}
+
+.e{
+    
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.e img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+    
+}
+
+.e:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+}
+
+.num2 .r{
+    
+    
+    float: left;
+}
+
+.r{
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.r img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+
+}
+.r:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+}
+.num2 .t{
+    
+    float: right;
+    text-align: center;
+}
+
+.t{
+    
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.t img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+
+}
+
+.t:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+}
+
+.num2 .y{
+    
+text-align: center;
+    margin: 25px auto;
+}
+
+.y{
+    width: 500px;
+    height:300px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.y img{
+    
+    width: 100%;
+    height: 100%;
+    transition:  all 1s  ease-in;
+    
+}
+
+.y:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+}
+
+.num3 .u{
+    
+    float: left;
+    
+}
+
+.u{
+    
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.u img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+    
+}
+
+.u:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+    
+}
+
+.num3 .i{
+    
+    
+float: right;
+
+}
+
+.i{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.i .img{
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+    
+}
+
+.i:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+    
+}
+
+.num3 .o{
+    
+    text-align: center;
+        margin: 25px auto;
+
+}
+
+.o{
+    
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.o .img{
+    
+    
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-in;
+    
+}
+
+.o:hover img{
+    
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: brightness(0.5);
+    
+}

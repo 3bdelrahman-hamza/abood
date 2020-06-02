@@ -1,0 +1,154 @@
+
+body {
+background-image: url(../img/contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.85;
+
+}
+
+#logo a{
+    font-size: 35px;
+    color:aqua;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:impact;
+    
+}
+
+#logo a:link{
+    
+    color:hotpink;
+    
+}
+
+#logo a:visited{
+    
+    color:orangered;
+    
+}
+
+#logo a:hover{
+    
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    position: fixed;
+        left: 0;
+
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:black;
+text-align: center;
+    opacity: .8;
+    
+    
+}
+
+
+    
+    
+
+
+li a {
+
+    display: block;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-weight:900;
+    text-decoration: none;
+    padding: 6px;
+    text-transform: uppercase;
+    border: 1px solid green;
+    border-radius: 8px;
+    
+    
+
+}
+li{
+    
+    display: inline-flex;
+    background-color:crimson;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color:orange;
+}
+
+ a{
+    
+    font-size: 20px;
+}
+
+a:link{
+    
+    color:cyan;
+    
+}
+
+
+ a:visited{
+    
+    color:cyan;
+}
+
+
+a:hover{
+    
+    color: black;
+    
+    
+    
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

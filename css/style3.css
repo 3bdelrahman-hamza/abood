@@ -1,0 +1,217 @@
+body{
+     
+    
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo a{
+    font-size: 35px;
+    color:aqua;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:impact;
+    
+}
+
+#logo a:link{
+    
+    color:hotpink;
+    
+}
+
+#logo a:visited{
+    
+    color:orangered;
+    
+}
+
+#logo a:hover{
+    
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+ul {
+    position: fixed;
+        left: 0;
+
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color:black;
+text-align: center;
+    opacity: .8;
+    
+    
+}
+
+
+    
+    
+
+
+li a {
+
+    display: block;
+    color: white;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    font-weight:900;
+    text-decoration: none;
+    padding: 6px;
+    text-transform: uppercase;
+    border: 1px solid green;
+    border-radius: 8px;
+    
+    
+
+}
+li{
+    
+    display: inline-flex;
+    background-color:crimson;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color:orange;
+}
+
+ a{
+    
+    font-size: 20px;
+}
+
+a:link{
+    
+    color:cyan;
+    
+}
+
+
+ a:visited{
+    
+    color:cyan;
+}
+
+
+a:hover{
+    
+    color: black;
+    
+    
+    
+}
+
+
+
+
+
+h1{
+    
+    text-align: center;
+    color: orangered;
+    text-decoration: none; 
+        text-transform: uppercase;
+
+    
+}
+
+
+
+
+
+
+form{
+    padding: 20px;
+    text-align:center;
+    color:orangered;
+    font-weight: bold;
+    margin: 25px auto;
+    font-family: impact;
+    font-size: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    opacity: 0.8;
+
+    border: 2px solid #f1f1f1;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+m:link{
+    color: orangered;
+}
+m:visited{
+    
+    color: deeppink;
+}
+
+m:hover{
+    
+    color: whitesmoke;
+    
+    
+    
+    
+}
+.u input{
+    
+    margin: 50px;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-size:30px;
+    color: red;
+    border: 20px;
+
+    border-radius: 25px;
+}
+.i input{
+    margin: 50px;
+        height: 40px;
+ width: 200px;
+    font-weight: bold;
+    font-size:30px;
+    color: red;
+border: 20px;
+    border-radius: 25px;
+}
+.remember{
+    
+    font-size:20px;
+    color: aquamarine;
+}
+
+
+
+.loginbt input{
+    margin: 50px;
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    
+
+}
+    

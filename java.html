@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+
+
+<html>
+
+<head>
+    
+    <title>java </title>
+    <link rel="stylesheet" href="css/news.css">
+    
+    
+    </head>
+
+
+<body>
+    
+    <nav>
+
+        
+    <ul>
+        
+   <div id="logo"><a href="../DONE/home.html">Programming Language<p style="font-size: 15px;"></p></a></div>
+
+        <li><a href="../DONE/home.html">home</a></li>
+        <li><a href="../DONE/java.html">java</a></li>
+        <li><a href="../DONE/c++.html">c++</a></li>
+        <li><a href="../DONE/pythone.html">pythone</a></li>
+        <li><a href="../DONE/all.html">over all</a></li>
+       <li><a  href="../DONE/sign.html" >log in </a></li>
+        <li><a href="../DONE/signup.html">signup</a></li>
+    </ul>
+
+    
+    
+    
+    
+    </nav>
+    
+    
+     
+        <br>
+         <br>
+         <br>
+          <br>
+         <br>
+         <br>
+     
+        <div class="p">
+                <p>
+                    <br>
+                    <br>
+                <center><strong style="color: red; font-family:; letter-spacing: 2px;border: 2px solid grey;border-radius: 20px; background-color:cadetblue;">Java</strong>
+</center>
+
+     <center>
+                    <span style="color:darkmagenta; font-family:Segoe UI;">Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA)</span></center>
+
+
+                        
+                         <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br><br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                         <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+
+    	<center><strong style="color: red; font-family:; letter-spacing: 2px;border: 2px solid grey;border-radius: 20px; background-color:cadetblue;">Java  Development  Method:</strong>
+                    <br>
+                    <br>
+                    <br>
+                    </center> 
+                    <center>
+                    <span style="color:darkmagenta; font-family:Segoe UI;">A  softwaredevelopment  or  framework  advancement  inprogramming building is a premise that is utilized tostructure,  plan,  and  component  the  way  towardbuilding  up  a  data  framework.  The  Javaimprovement technique  is separating  four parts. Inthe e-learning system design to gathered from pastwriting  on  data  frameworks  achievement,  sixmeasurements  of  progress  elements,  in  particular,framework  quality,  data  quality,  benefit  quality,utilize, client fulfilment, and net benefit, are knownAssociate  in  Nursing  consolidated  into  a  generalachievement display (Singh D. T., January 2017).
+</span></center><br><br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+    
+                    
+                    
+                    <center><strong style="color: red; font-family:; letter-spacing: 2px;border: 2px solid grey;border-radius: 20px; background-color:cadetblue;">Java Security  Method: </strong>
+                    
+                    
+     <center>
+                    <span style="color:darkmagenta; font-family:Segoe UI;">In this day and  age wherePC organizing assumes a vital part in the regular dayto day existence, PC  lawbreakers cause destructionin  basic  or  vital  system  conditions.  A  typicalcriminal  exercise  includes:  tapping  systemmovement,  altering  databases,  adjusting  sitescrippling administrations and data robbery.
+</span></center>
+                        <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br><br>
+                    
+           
+
+                        
+                        <center><strong style="color: red; font-family:; letter-spacing: 2px;border: 2px solid grey;border-radius: 20px; background-color:cadetblue;">Example with methods</strong>
+</center>
+
+     <center>
+                    <span style="color:darkmagenta; font-family:Segoe UI;">// This is an example of a single line comment using two slashes
+
+/*<br>
+ * This is an example of a multiple line comment using the slash and asterisk.
+ * This type of comment can be used to hold a lot of information or deactivate
+ * code, but it is very important to remember to close the comment.
+ */<br>
+
+package fibsandlies;<br>
+
+import java.util.Map;<br>
+import java.util.HashMap;<br>
+
+/**<br>
+ * This is an example of a Javadoc comment; Javadoc can compile documentation<br>
+ * from this text. Javadoc comments must immediately precede the class, method,<br>
+ * or field being documented.
+ */<br>
+public class FibCalculator extends Fibonacci implements Calculator {<br>
+    private static Map<Integer, Integer> memoized = new HashMap<>();<br>
+
+    /*
+     * The main method written as follows is used by the JVM as a starting point<br>
+     * for the program.<br>
+     */<br>
+    public static void main(String[] args) {<br>
+        memoized.put(1, 1);<br>
+        memoized.put(2, 1);<br>
+        System.out.println(fibonacci(12)); // Get the 12th Fibonacci number and print to console
+    }<br>
+
+    /**<br>
+     * An example of a method written in Java, wrapped in a class.
+     * Given a non-negative number FIBINDEX, returns
+     * the Nth Fibonacci number, where N equals FIBINDEX.
+     * <br>
+     * @param fibIndex The index of the Fibonacci number
+     * @return the Fibonacci number
+     */<br>
+    public static int fibonacci(int fibIndex) {<br>
+        if (memoized.containsKey(fibIndex)) return memoized.get(fibIndex);<br>
+        else {<br>
+            int answer = fibonacci(fibIndex - 1) + fibonacci(fibIndex - 2);<br>
+            memoized.put(fibIndex, answer);<br>
+            return answer;<br>
+        }
+    }
+}
+ release on March 27, 2018<br></span></center>
+
+
+                        
+                         <br>
+           
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                 
+
+    
+<div id="f">
+        <img src="java1.png" style="width:500px; height: 500;">
+    
+       
+
+    
+    </body>
+
+</html>
